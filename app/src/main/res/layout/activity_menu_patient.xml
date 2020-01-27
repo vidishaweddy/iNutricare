@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Patients Menu"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="22pt"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textColorHighlight="#000"
+        android:typeface="sans"
+        android:paddingTop="15dp"
+        android:singleLine="false" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_green_light"
+        android:layout_weight="0.28">
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageButton10"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:contentDescription="NewsFeed"
+            android:src="@drawable/ic_view_white_48px"
+            android:background="@drawable/selector"
+            android:clickable="true"
+            android:padding="5dp"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="5dp" />
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageButton12"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:contentDescription="NewsFeed"
+            android:src="@drawable/ic_add_white_48px"
+            android:background="@drawable/selector"
+            android:clickable="true"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageButton13"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:contentDescription="NewsFeed"
+            android:src="@drawable/ic_update_white_48px"
+            android:background="@drawable/selector"
+            android:clickable="true"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp" />
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageButton14"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:contentDescription="NewsFeed"
+            android:src="@drawable/ic_remove_white_48px"
+            android:background="@drawable/selector"
+            android:clickable="true"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="View Patients"
+            android:id="@+id/textView14"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Add Patient"
+            android:id="@+id/textView15"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Update Patient"
+            android:id="@+id/textView16"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginLeft="6dp"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Remove Patient"
+            android:id="@+id/textView17"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+    </GridLayout>
+</LinearLayout>
